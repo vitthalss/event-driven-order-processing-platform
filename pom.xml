@@ -9,14 +9,14 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <description>
-        An E-commerce Microservices Application that demonstrates the usage of Kafka Streams.
+        Cloud-native e-commerce microservices platform demonstrating real-time event streaming and distributed order processing using Kafka Streams and Spring Boot.
     </description>
 
     <developers>
         <developer>
-            <id>ZaTribune</id>
-            <name>Muhammad Ali</name>
-            <email>muhammadali40k@gmail.com</email>
+            <id>Vitthal</id>
+            <name>Shirke</name>
+            <email>vi**.s**@gmail.com</email>
         </developer>
     </developers>
 
