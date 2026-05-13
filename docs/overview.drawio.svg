@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="460px" height="450px" viewBox="-0.5 -0.5 460 450">
+    <defs/>
+    <rect fill="#FFFFFF" width="100%" height="100%" x="0" y="0"
+          style="fill: white;"/>
+    <g>
+        <g data-cell-id="0">
+            <g data-cell-id="1">
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-1">
+                    <g>
+                        <rect x="246" y="19" width="120" height="50" fill="#ffffff" stroke="#000000"
+                              pointer-events="all"
+                              style="fill: rgb(255, 255, 255); stroke: black"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe flex-end; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 66px; margin-left: 247px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: black; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                                ms-orders
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="247" y="52.5" width="118" height="17"
+                                       xlink:href="data:image/png;base64,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"/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-2">
+                    <g>
+                        <rect x="94" y="239" width="100" height="50" fill="#ffffff" stroke="#000000"
+                              pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe flex-end; justify-content: unsafe center; width: 98px; height: 1px; padding-top: 286px; margin-left: 95px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: black; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                                ms-stock
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="95" y="272.5" width="98" height="17"
+                                       xlink:href="data:image/png;base64,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"/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-3">
+                    <g>
+                        <rect x="94" y="137" width="100" height="50" fill="#ffffff" stroke="#000000"
+                              pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe flex-end; justify-content: unsafe center; width: 98px; height: 1px; padding-top: 184px; margin-left: 95px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: black; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                                ms-payment
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="95" y="170.5" width="98" height="17"
+                                       xlink:href="data:image/png;base64,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"/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-6">
+                    <g>
+                        <rect x="246" y="133" width="120" height="306" fill="#e6e6e6" stroke="#000000"
+                              pointer-events="all"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-4">
+                    <g>
+                        <g>
+                            <svg width="53" height="85.38" viewBox="-0.000003814697265625 0 256 412.67327880859375"
+                                 version="1.1" preserveAspectRatio="xMidYMid" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="283.5" y="348"
+                                 style="font-family: initial;">&#xa;
+                                <g>&#xa;        <path
+                                        d="M87.9320692,36.714181 C83.382936,32.1427482 77.0364491,29.3196096 69.9808327,29.3196096 C62.9519759,29.3196096 56.6545483,32.1427482 52.1589343,36.714181 L52.0295962,36.714181 C47.4938428,41.2633143 44.6707042,47.614261 44.6707042,54.6431179 C44.6707042,61.6987343 47.4938428,67.9961618 52.0295962,72.5185355 L52.1589343,72.6211139 C56.6545483,77.1702472 62.9519759,79.9666261 69.9808327,79.9666261 C77.0364491,79.9666261 83.382936,77.1702472 87.9320692,72.6211139 L87.9989682,72.5185355 C92.5570213,67.9961618 95.3534002,61.6987343 95.3534002,54.6431179 C95.3534002,47.614261 92.5570213,41.2633143 87.9989682,36.714181 L87.9320692,36.714181 Z M69.9808327,383.353672 C77.0364491,383.353672 83.382936,380.481475 87.9320692,375.985861 L87.9989682,375.852063 C92.5570213,371.365368 95.3534002,365.014422 95.3534002,358.034624 C95.3534002,350.979008 92.5570213,344.654821 87.9989682,340.083388 L87.9320692,340.083388 C83.382936,335.458436 77.0364491,332.662057 69.9808327,332.662057 C62.9519759,332.662057 56.6545483,335.458436 52.1589343,340.083388 L52.0295962,340.083388 C47.4938428,344.654821 44.6707042,350.979008 44.6707042,358.034624 C44.6707042,365.014422 47.4938428,371.365368 52.0295962,375.852063 L52.1589343,375.985861 C56.6545483,380.481475 62.9519759,383.353672 69.9808327,383.353672 Z M207.953367,306.633879 C214.228495,304.988163 219.910452,300.960842 223.375821,294.873031 L223.844114,293.985504 C226.925929,288.209889 227.487881,281.546747 225.842165,275.641794 C224.183069,269.317607 220.106689,263.724849 214.032258,260.2238 L213.679923,259.987423 C207.76159,256.745051 201.018169,256.040381 194.82332,257.712857 C188.525893,259.282754 182.870696,263.488472 179.423166,269.527223 C175.931037,275.507996 175.199608,282.407514 176.872084,288.758461 C178.598078,295.002369 182.634319,300.648647 188.66861,304.176455 L188.70875,304.176455 C194.756421,307.650744 201.60688,308.279595 207.953367,306.633879 Z M95.9688712,180.386512 C89.3146489,173.750129 80.1450235,169.59347 69.9808327,169.59347 C59.8567813,169.59347 50.7094556,173.750129 44.0686131,180.386512 C37.4589901,187.000595 33.38261,196.147921 33.38261,206.285352 C33.38261,216.449543 37.4589901,225.623628 44.0686131,232.31353 C50.7094556,238.896393 59.8567813,243.026292 69.9808327,243.026292 C80.1450235,243.026292 89.3146489,238.896393 95.9688712,232.31353 C102.591874,225.623628 106.668254,216.449543 106.668254,206.285352 C106.668254,196.147921 102.591874,187.000595 95.9688712,180.386512 Z M81.3581257,137.223266 C96.0848295,139.64947 109.335295,146.705086 119.445967,156.896037 L119.526245,156.896037 C121.131822,158.514993 122.701719,160.267747 124.151198,162.042801 L149.434566,147.414216 C146.036096,137.142987 145.879999,126.403464 148.609478,116.341852 C152.217565,102.85501 160.959037,90.7819674 174.062325,83.2045386 L174.494938,82.9458624 C187.455508,75.6003502 202.191132,74.0839725 215.495117,77.6920595 C228.964119,81.2956866 241.11744,90.0772977 248.681489,103.171665 L248.681489,103.198425 C256.209859,116.212514 257.739616,131.157755 254.144909,144.591077 C250.563582,158.069 241.781971,170.222321 228.692063,177.746231 L225.240074,179.788881 L224.887739,179.788881 C212.779016,185.560036 199.461652,186.452023 187.232511,183.23641 C177.188739,180.569369 167.974514,174.976611 160.7628,167.006708 L135.519571,181.590694 C138.418528,189.270702 140.028564,197.55726 140.028564,206.285352 C140.028564,214.986684 138.418528,223.375821 135.519571,231.109347 L160.7628,245.639814 C167.974514,237.567333 177.188739,232.077153 187.232511,229.410112 C200.701514,225.726206 215.637835,227.296103 228.692063,234.900292 L229.526071,235.292766 L229.526071,235.346285 C242.138765,242.972773 250.603721,254.78714 254.144909,268.113424 C257.739616,281.466468 256.209859,296.416169 248.681489,309.457017 L248.226576,310.371304 L248.173057,310.291025 C240.609008,322.86358 228.692063,331.382055 215.535256,334.985683 C202.035034,338.54025 187.103173,337.023873 174.062325,329.526723 L174.062325,329.419684 C160.959037,321.842255 152.217565,309.742453 148.609478,296.286831 C145.879999,286.251978 146.036096,275.507996 149.434566,265.241226 L124.151198,250.65724 C122.701719,252.436754 121.131822,254.10923 119.526245,255.728186 L119.445967,255.804005 C109.335295,265.945896 96.0848295,273.001512 81.3581257,275.351898 L81.3581257,304.568929 C91.8523516,306.763217 101.258354,312.01702 108.630625,319.384832 L108.666305,319.46511 C118.54506,329.290346 124.65963,342.982345 124.65963,358.034624 C124.65963,373.037844 118.54506,386.645104 108.666305,396.523859 L108.630625,396.679957 C98.6849713,406.558712 85.0331117,412.673282 69.9808327,412.673282 C55.0088325,412.673282 41.3391332,406.558712 31.4202388,396.679957 L31.3845593,396.679957 L31.3845593,396.523859 C21.4924245,386.645104 15.3644745,373.037844 15.3644745,358.034624 C15.3644745,342.982345 21.4924245,329.290346 31.3845593,319.46511 L31.3845593,319.384832 L31.4202388,319.384832 C38.7791307,312.01702 48.1985125,306.763217 58.6659788,304.568929 L58.6659788,275.351898 C43.9258952,273.001512 30.7155691,265.945896 20.6182773,255.804005 L20.5112389,255.728186 C7.88962418,243.053052 0,225.623628 0,206.285352 C0,187.000595 7.88962418,169.571171 20.5112389,156.896037 L20.6182773,156.896037 C30.7155691,146.705086 43.9258952,139.64947 58.6659788,137.223266 L58.6659788,108.135573 C48.1985125,105.861006 38.7791307,100.611663 31.4202388,93.2929105 L31.3845593,93.2929105 L31.3845593,93.2126317 C21.4924245,83.2848174 15.3644745,69.6953969 15.3644745,54.6431179 C15.3644745,39.6666577 21.4924245,25.9478991 31.3845593,16.0691441 L31.4202388,16.0200848 C41.3391332,6.11457024 55.0088325,0 69.9808327,0 C85.0331117,0 98.6849713,6.11457024 108.630625,16.0200848 L108.630625,16.0691441 L108.666305,16.0691441 C118.54506,25.9478991 124.65963,39.6666577 124.65963,54.6431179 C124.65963,69.6953969 118.54506,83.2848174 108.666305,93.2126317 L108.630625,93.2929105 C101.258354,100.611663 91.8523516,105.861006 81.3581257,108.135573 L81.3581257,137.223266 Z M223.375821,117.83147 L223.166204,117.519275 C219.674075,111.636621 214.108077,107.716339 207.953367,106.017104 C201.60688,104.344628 194.756421,105.053758 188.66861,108.528047 L188.70875,108.528047 C182.634319,111.975576 178.571319,117.621853 176.872084,123.946041 C175.199608,130.216708 175.931037,137.142987 179.423166,143.177278 L179.539124,143.337836 C183.040173,149.291848 188.606171,153.28795 194.82332,154.906906 C201.071688,156.65966 208.033646,155.928231 214.032258,152.427182 L214.357833,152.271085 C220.262787,148.743276 224.196449,143.177278 225.842165,137.062708 C227.51464,130.76528 226.85011,123.865762 223.375821,117.83147 Z"
+                                        fill="#1A1919">&#xa;&#xa;</path>&#xa;
+                                </g>&#xa;
+                            </svg>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-8">
+                    <g>
+                        <rect x="386" y="196" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 211px; margin-left: 401px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #FF8000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: #FF8000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                                4
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="397.5" y="204.5" width="7" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABECAYAAACS0FUOAAAAAXNSR0IArs4c6QAAAhlJREFUWEftl79LVVEcwD/f0BIjG4vQzaWGaLEpmswIqiGoRahVBXFxeoH3XDIKakmxhiaFpqKhBqnQobEpnPoXGhSqKUy+dm/nyfWp73LP+z6H3jnb5XDu59zP98c5VzjkIYfMIwLNjUelHa5UHReAZeC0V7EijuFmWoKTRh09wCfgUgHQRmBCDWEWdjWP9gDVcRnlHcLJBn32QHX0eZUX94lVW4DPgMkGlXW2LVBTrqK8Bk4ckIl2QH3IKTb5CJz3sF8o3xCGzLNUFSFlHpjwKhV4DhwBxu2BKTdQXhVUrtHNCJvM+E3YxdCrXAXO7agURiXhvToWTIFeZaZuzMP+qUyYFEHtgQl3EBYhb2PZyFXKfb5nD6ZAnWWAP2QqBxtV1gNmBvQq3/z9olsFlfPimCrWnx0w5R7KS6DbA75ylGGpsW4O1AecZSsv8P6CytuS8KGxu7T8hTrHMTbIVF5vptIshpoyhfKkTKUJUF3eI7PrwpkylS0D/XXhLXCtoPKxOGrN7ifBMVTHNPAI6PKAL8AVcfw0B+65eSk/EG6K43MzWHCn0ZRxND9q2jOECUl4UX+5dADQcRd4GuRT6UU4Xlj7G/Yk2rQ4lnaUBoHqtWN9AJdtJrgOy1580HwE7mcm+HctuNOExq8zgCF2WophBJqXRVQalYbkQOU1sfArKytbEJWWGao8H5VWVla2ICotM1R5/v9Xug3Xd+pFI5NZywAAAABJRU5ErkJggg=="/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-10">
+                    <g>
+                        <rect x="276" y="87" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 102px; margin-left: 291px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #006633; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: #006633; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap; ">
+                                                1
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="287.5" y="95.5" width="7" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABECAYAAACS0FUOAAAAAXNSR0IArs4c6QAAAW1JREFUWEftl79KA0EQh789CwkKCtZWvoDmDkEsrATBB9A8gLkgNnZaCwqKXZCAjYIExNbKxhcQxEawtLCwUasQg2T8gxFiTO42t3eNs+3O8DHf/objDBkfkzEPBTo3rkr/q9LQ30bY/DX+Pd7bLJWbh15a7ENT9CeAS2A8C6Ah9MsIq39MkcKEYX4JMcfAYPrAML+AmBNgrMsbOZvQEAbLiBwCQz0C4QC4PpOj1thBWAMGIpYyEdBQ9OeBA+AzlXFOX0BDKZikKfsf0Z8DvDik75o+gKVgmqZcACMWoFZpGkBzCjIMLLpZi+4TvoLZ4rm2x2juCEMhTeAdnilQubr+gqz41bSAj4hs8FKvcnbb+JnIKTCcChBvFyNlnurnbaAW0SkwTjQV6PwDrEpVaZzVa6vR0GhoNDQdBnQtdC2s1yJhg/0vtwIjDKjShBHpbFelqtTagIbGWllUgyqNMmR9r0qtlUU1qNIoQ9b37+VoBlT2Vsa8AAAAAElFTkSuQmCC"/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-11">
+                    <g>
+                        <path d="M 146 187 L 146 226 L 265.13 226" fill="none" stroke="#006633" stroke-miterlimit="10"
+                              pointer-events="stroke" style="stroke: rgb(0, 102, 51);"/>
+                        <path d="M 268.88 226 L 263.88 228.5 L 265.13 226 L 263.88 223.5 Z" fill="#006633"
+                              stroke="#006633" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(0, 102, 51); stroke: rgb(0, 102, 51);"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-13">
+                    <g>
+                        <rect x="146" y="196" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 211px; margin-left: 161px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #006633; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: #006633; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap; ">
+                                                3
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="157.5" y="204.5" width="7" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABECAYAAACS0FUOAAAAAXNSR0IArs4c6QAABABJREFUWEftl1toXFUUhr99zqRtjKKmICpatfWGeOnkjJWgDxYx9VIFW2N9EJFOOhOrPkSEFhEtKl5QrGIbk5log0JBgrUgLfWOWhGSmbH1IQ+KxguKD2oaajImzZxlz7Spzpw9Z/aZlDzorOe11r/Wv257K+ZY1BzjUQc87ozXKf0/UBqPnoNt3wWyBlgMNB1Nexz4DtSbWIf66dn/swkdlZsm4SwCXgJuAewqzgogfaA2kMqOBenqARPONcBbwGkmUf9LZxixbyM9+HUlOz9gMhpDrD3AwpBgM+rf4Nor6Bsc0dmXAna1NjJ+aAfIDTWCzZjtZDS/hoHhqXI/pYDrWlai1A6gYZaAk4i1kvTQB5UBE04DwnYUt2vA3GJNbWsjrwyN0NW6gInJOxH1PNCsDU7oIZ29tzJgx1VnYU1/Bpzrc6Do54980kfRutiNKHkbmO8HlU/IT9/MG19543NM/qG0M3YtruwCTigz/glYTir7rc9pvLUZe+p9oEWT5V6mF9zEa58f1AN6DXOwcDr2dBRRVyJcjmIpyH6a5q9m8xd5n9O1V59E5K/dgDdGZVItw1q6JOEsAT4GzvbjVathWMD2S+bR3NiLcI/GdAxLtdGTGQweCxNQD+jUxktBngS1ArDKzFxQj5LKPAVI7YAJ5wxg79EFXik0F2EbB/LrdUPvGZlf/HjL+djqU8AD1onX/o8xuvhFBgYKlSIyB+yMLcOV94CTNc7yh2PfRGSim+7hP4MqYw6YbFmFKO+CBMk4qKdpanhBO0ahKE06GxCeMekrFB8Rse9g6+Dvs2mai7GV8NvESLEhvJdAxNqEcLemU71c9tDUsKo8U3NK9akpErGHQR7XjoeSDnpz2/SrzYgrjVLwehtiym2jf9+BGcvZZnjETyJ2P8jLJhvn+AAGdbCS1fTmvKNelDkAZCO92WdLAdvbbRaOOIh7IWI5wCKQpcVrLtJFOtcfWOLAGVUPkMpsKQUM3JMqRSrTqVvEx4JIOs8hPKQNSktp8bU2tRNo0xj9gtjLK741jwTr3cSLNLajuHI9fbmsv4ZJ5xGEJ7RRCq9z4rxO37oKvokeKQFjkYxegVgfBjyAs7iSZGzJvmJQp3x/Gcr1mkHHykxPPkgqs7nS4CuSzhaE9bXugDK7YSLWdXQP/Vp503QsOw+r8C5wwSxBvRN1K6msV9sS0f0tWg+Pxjuz+FtMIhInndtu/sSo/fc0hqg46Yy3WXzvmeBNszZ6JhFrq+H/0EWxG+E+Utkfg8pRfbVV/QGzi4Lbw6tf/mBS9+qAJl5C6NQBQ5Blplqn1IynEFp1SkOQZaZap9SMpxBadUpDkGWmWqfUjKcQWnVKQ5Blpvrfp/RvWv9JVAFZg3kAAAAASUVORK5CYII="/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-14">
+                    <g>
+                        <g>
+                            <svg height="27" width="27"
+                                 viewBox="-0.10282548516988754 -0.07989933341741562 97.19845581054688 97.0836181640625"
+                                 xmlns="http://www.w3.org/2000/svg" id="svg-image-MShhW7Y7GshmG0I9WXwp" x="292.5"
+                                 y="23.5" style="font-family: initial;">
+                                <defs>
+                                    <style>#svg-image-MShhW7Y7GshmG0I9WXwp .cls-1 { fill: rgb(109, 179, 63); }&#xa;
+                                    </style>
+                                </defs>
+                                <title>spring-icon</title>
+                                <g id="Layer_2" data-name="Layer 2">
+                                    <g id="logos">
+                                        <path class="cls-1"
+                                              d="M88.4,5.6a42.32,42.32,0,0,1-5.2,9.1A48.46,48.46,0,1,0,15.5,84l1.8,1.6A48.41,48.41,0,0,0,96.8,52C98.2,39.8,94.5,24.2,88.4,5.6ZM22.5,84.4a4.12,4.12,0,1,1-.6-5.8A4.21,4.21,0,0,1,22.5,84.4ZM88.1,69.9C76.2,85.8,50.6,80.4,34.3,81.2c0,0-2.9.2-5.8.6,0,0,1.1-.5,2.5-1,11.5-4,16.9-4.8,23.9-8.4C68,65.7,81.1,51,83.7,35.8c-5,14.6-20.2,27.2-34,32.3C40.2,71.6,23.1,75,23.1,75l-.7-.4c-11.6-5.7-12-30.9,9.2-39,9.3-3.6,18.1-1.6,28.2-4,10.7-2.5,23.1-10.5,28.1-21C93.5,27.5,100.3,53.7,88.1,69.9Z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-15">
+                    <g>
+                        <g>
+                            <svg height="27" width="27"
+                                 viewBox="-0.10282548516988754 -0.07989933341741562 97.19845581054688 97.0836181640625"
+                                 xmlns="http://www.w3.org/2000/svg" id="svg-image-DaarttCaWQr31IwxyagQ" x="131" y="142"
+                                 style="font-family: initial;">
+                                <defs>
+                                    <style>#svg-image-DaarttCaWQr31IwxyagQ .cls-1 { fill: rgb(109, 179, 63); }&#xa;
+                                    </style>
+                                </defs>
+                                <title>spring-icon</title>
+                                <g id="Layer_2" data-name="Layer 2">
+                                    <g id="logos">
+                                        <path class="cls-1"
+                                              d="M88.4,5.6a42.32,42.32,0,0,1-5.2,9.1A48.46,48.46,0,1,0,15.5,84l1.8,1.6A48.41,48.41,0,0,0,96.8,52C98.2,39.8,94.5,24.2,88.4,5.6ZM22.5,84.4a4.12,4.12,0,1,1-.6-5.8A4.21,4.21,0,0,1,22.5,84.4ZM88.1,69.9C76.2,85.8,50.6,80.4,34.3,81.2c0,0-2.9.2-5.8.6,0,0,1.1-.5,2.5-1,11.5-4,16.9-4.8,23.9-8.4C68,65.7,81.1,51,83.7,35.8c-5,14.6-20.2,27.2-34,32.3C40.2,71.6,23.1,75,23.1,75l-.7-.4c-11.6-5.7-12-30.9,9.2-39,9.3-3.6,18.1-1.6,28.2-4,10.7-2.5,23.1-10.5,28.1-21C93.5,27.5,100.3,53.7,88.1,69.9Z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-16">
+                    <g>
+                        <g>
+                            <svg height="27" width="27"
+                                 viewBox="-0.10282548516988754 -0.07989933341741562 97.19845581054688 97.0836181640625"
+                                 xmlns="http://www.w3.org/2000/svg" id="svg-image-yD4fY8AxlroyvKhQg75z" x="131" y="243"
+                                 style="font-family: initial;">
+                                <defs>
+                                    <style>#svg-image-yD4fY8AxlroyvKhQg75z .cls-1 { fill: rgb(109, 179, 63); }&#xa;
+                                    </style>
+                                </defs>
+                                <title>spring-icon</title>
+                                <g id="Layer_2" data-name="Layer 2">
+                                    <g id="logos">
+                                        <path class="cls-1"
+                                              d="M88.4,5.6a42.32,42.32,0,0,1-5.2,9.1A48.46,48.46,0,1,0,15.5,84l1.8,1.6A48.41,48.41,0,0,0,96.8,52C98.2,39.8,94.5,24.2,88.4,5.6ZM22.5,84.4a4.12,4.12,0,1,1-.6-5.8A4.21,4.21,0,0,1,22.5,84.4ZM88.1,69.9C76.2,85.8,50.6,80.4,34.3,81.2c0,0-2.9.2-5.8.6,0,0,1.1-.5,2.5-1,11.5-4,16.9-4.8,23.9-8.4C68,65.7,81.1,51,83.7,35.8c-5,14.6-20.2,27.2-34,32.3C40.2,71.6,23.1,75,23.1,75l-.7-.4c-11.6-5.7-12-30.9,9.2-39,9.3-3.6,18.1-1.6,28.2-4,10.7-2.5,23.1-10.5,28.1-21C93.5,27.5,100.3,53.7,88.1,69.9Z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-22">
+                    <g>
+                        <rect x="196" y="139" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 154px; margin-left: 211px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #FF8000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: #FF8000; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap; ">
+                                                2
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="207.5" y="147.5" width="7" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABECAYAAACS0FUOAAAAAXNSR0IArs4c6QAAAx5JREFUWEftl01IVUEUx39HEsJqYR+0MFoktIogaBVEtMhyUVHpQuhjESaWZBhUUPjmWhlRhFQIIS0q2oWtoo+NRQUthEIKWrSMqIgWGZFpTm+uD30fM/frvVzUne3cc35n/nPOnHOFWV4yyzxSYMUVTyX9DyTVilVAK7AFTR3CvLxjfwM+Ag+AAVG8DpPEmTS6h/VMMgCshEj1qrNBvaCKVunmjQtcAtSKucBF4ABQHRaxZf8HQpdkuGazLQBqjeBxBTgY8VSueMaAY6K4XPxBIdBjX/aejIxJTlbs29xtoyhe5W9MA3Uvi/jFY/CTpFJrkAxNIpj79dcMULEXuA7McdCGEU6geS6Kn/osSxmnA+gCahw2n4ENonhrAw4COxyG94GdBlS8rz22orkNLLDYTgD7RXGzAKjPUcuYL+dqi9EosE2Uv1+ycol2F9juCLYzP3l8SbXya+0ZsMRiNAxsFMV318Vqj3Y0/Y79flEcKjzhGeqYoAVYB34d1gO1aGoQnoqiMSiLQoClJyw3JQOA9jssG6i4Bey2+PlCFQ3SzcuSLE0K1aep57efUMssPp6wkM1yGPPyFNZhEmAuQ28Aeyz24witksHsT6+yRgzt0YnmguMpNFm/qbh2EwO1RxuaS45XZhShWTI8LD55ImAITKM5JR69tmuKDQyFwT2g2fYMmgAiA3MJchT8yG3ty3SEQFhkYA52HjgSADPZ2O46WeSyyMH6wG9FVdb0hz4yHM/ve64yC5RUK783mpGjzSG/6SQd+e0nrJ7dU1v4fPMeTYt4fpeJvKzACDKOALtE8S4yKehpC3xBNEMITaL4GhdmzdKQkWGEahrkJJ+SwEqAWrEiO/QMAcstDj/kxj4jZ+I1M7VNJckdMywl9mY3LB0xzHfaoxHtA10jX9I4LDPN1OmCJq+kMGNnAfawhkkeAYvL8eywtQCV//NyNc5jHiMwK9A1BMXw6/y0EKgV83OlsLYS3i0+7Fn6l2AlbiM34EoFlAIrpeS0n1TSVNLYCqRJE1uyMINU0jCFYu+nksaWLMwglTRModj7/76kfwDul+hFb7xr5QAAAABJRU5ErkJggg=="/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-23">
+                    <g>
+                        <rect x="196" y="234" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 249px; margin-left: 211px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #FF8000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: #FF8000; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap; ">
+                                                2
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="207.5" y="242.5" width="7" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABECAYAAACS0FUOAAAAAXNSR0IArs4c6QAAAx5JREFUWEftl01IVUEUx39HEsJqYR+0MFoktIogaBVEtMhyUVHpQuhjESaWZBhUUPjmWhlRhFQIIS0q2oWtoo+NRQUthEIKWrSMqIgWGZFpTm+uD30fM/frvVzUne3cc35n/nPOnHOFWV4yyzxSYMUVTyX9DyTVilVAK7AFTR3CvLxjfwM+Ag+AAVG8DpPEmTS6h/VMMgCshEj1qrNBvaCKVunmjQtcAtSKucBF4ABQHRaxZf8HQpdkuGazLQBqjeBxBTgY8VSueMaAY6K4XPxBIdBjX/aejIxJTlbs29xtoyhe5W9MA3Uvi/jFY/CTpFJrkAxNIpj79dcMULEXuA7McdCGEU6geS6Kn/osSxmnA+gCahw2n4ENonhrAw4COxyG94GdBlS8rz22orkNLLDYTgD7RXGzAKjPUcuYL+dqi9EosE2Uv1+ycol2F9juCLYzP3l8SbXya+0ZsMRiNAxsFMV318Vqj3Y0/Y79flEcKjzhGeqYoAVYB34d1gO1aGoQnoqiMSiLQoClJyw3JQOA9jssG6i4Bey2+PlCFQ3SzcuSLE0K1aep57efUMssPp6wkM1yGPPyFNZhEmAuQ28Aeyz24witksHsT6+yRgzt0YnmguMpNFm/qbh2EwO1RxuaS45XZhShWTI8LD55ImAITKM5JR69tmuKDQyFwT2g2fYMmgAiA3MJchT8yG3ty3SEQFhkYA52HjgSADPZ2O46WeSyyMH6wG9FVdb0hz4yHM/ve64yC5RUK783mpGjzSG/6SQd+e0nrJ7dU1v4fPMeTYt4fpeJvKzACDKOALtE8S4yKehpC3xBNEMITaL4GhdmzdKQkWGEahrkJJ+SwEqAWrEiO/QMAcstDj/kxj4jZ+I1M7VNJckdMywl9mY3LB0xzHfaoxHtA10jX9I4LDPN1OmCJq+kMGNnAfawhkkeAYvL8eywtQCV//NyNc5jHiMwK9A1BMXw6/y0EKgV83OlsLYS3i0+7Fn6l2AlbiM34EoFlAIrpeS0n1TSVNLYCqRJE1uyMINU0jCFYu+nksaWLMwglTRModj7/76kfwDul+hFb7xr5QAAAABJRU5ErkJggg=="/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-24">
+                    <g>
+                        <rect x="146" y="289" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 304px; margin-left: 161px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #006633; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: #006633; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap; ">
+                                                3
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="157.5" y="297.5" width="7" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABECAYAAACS0FUOAAAAAXNSR0IArs4c6QAABABJREFUWEftl1toXFUUhr99zqRtjKKmICpatfWGeOnkjJWgDxYx9VIFW2N9EJFOOhOrPkSEFhEtKl5QrGIbk5log0JBgrUgLfWOWhGSmbH1IQ+KxguKD2oaajImzZxlz7Spzpw9Z/aZlDzorOe11r/Wv257K+ZY1BzjUQc87ozXKf0/UBqPnoNt3wWyBlgMNB1Nexz4DtSbWIf66dn/swkdlZsm4SwCXgJuAewqzgogfaA2kMqOBenqARPONcBbwGkmUf9LZxixbyM9+HUlOz9gMhpDrD3AwpBgM+rf4Nor6Bsc0dmXAna1NjJ+aAfIDTWCzZjtZDS/hoHhqXI/pYDrWlai1A6gYZaAk4i1kvTQB5UBE04DwnYUt2vA3GJNbWsjrwyN0NW6gInJOxH1PNCsDU7oIZ29tzJgx1VnYU1/Bpzrc6Do54980kfRutiNKHkbmO8HlU/IT9/MG19543NM/qG0M3YtruwCTigz/glYTir7rc9pvLUZe+p9oEWT5V6mF9zEa58f1AN6DXOwcDr2dBRRVyJcjmIpyH6a5q9m8xd5n9O1V59E5K/dgDdGZVItw1q6JOEsAT4GzvbjVathWMD2S+bR3NiLcI/GdAxLtdGTGQweCxNQD+jUxktBngS1ArDKzFxQj5LKPAVI7YAJ5wxg79EFXik0F2EbB/LrdUPvGZlf/HjL+djqU8AD1onX/o8xuvhFBgYKlSIyB+yMLcOV94CTNc7yh2PfRGSim+7hP4MqYw6YbFmFKO+CBMk4qKdpanhBO0ahKE06GxCeMekrFB8Rse9g6+Dvs2mai7GV8NvESLEhvJdAxNqEcLemU71c9tDUsKo8U3NK9akpErGHQR7XjoeSDnpz2/SrzYgrjVLwehtiym2jf9+BGcvZZnjETyJ2P8jLJhvn+AAGdbCS1fTmvKNelDkAZCO92WdLAdvbbRaOOIh7IWI5wCKQpcVrLtJFOtcfWOLAGVUPkMpsKQUM3JMqRSrTqVvEx4JIOs8hPKQNSktp8bU2tRNo0xj9gtjLK741jwTr3cSLNLajuHI9fbmsv4ZJ5xGEJ7RRCq9z4rxO37oKvokeKQFjkYxegVgfBjyAs7iSZGzJvmJQp3x/Gcr1mkHHykxPPkgqs7nS4CuSzhaE9bXugDK7YSLWdXQP/Vp503QsOw+r8C5wwSxBvRN1K6msV9sS0f0tWg+Pxjuz+FtMIhInndtu/sSo/fc0hqg46Yy3WXzvmeBNszZ6JhFrq+H/0EWxG+E+Utkfg8pRfbVV/QGzi4Lbw6tf/mBS9+qAJl5C6NQBQ5Blplqn1IynEFp1SkOQZaZap9SMpxBadUpDkGWmWqfUjKcQWnVKQ5Blpvrfp/RvWv9JVAFZg3kAAAAASUVORK5CYII="/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-30">
+                    <g>
+                        <path d="M 338 49 L 338 149 L 338.1 156.41" fill="none" stroke="#007fff" stroke-miterlimit="10"
+                              pointer-events="stroke" style="stroke: rgb(0, 127, 255);"/>
+                        <path d="M 338.15 160.16 L 336.41 155.18 L 338.1 156.41 L 339.75 155.14 Z" fill="#007fff"
+                              stroke="#007fff" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(0, 127, 255); stroke: rgb(0, 127, 255);"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-26">
+                    <g>
+                        <rect x="270" y="210" width="80" height="31" rx="4.65" ry="4.65" fill="#ffffff" stroke="#000000"
+                              pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 226px; margin-left: 271px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: black; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                                payments
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="271" y="219.5" width="78" height="17"
+                                       xlink:href="data:image/png;base64,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"/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-27">
+                    <g>
+                        <rect x="270" y="304" width="80" height="31" rx="4.65" ry="4.65" fill="#ffffff" stroke="#000000"
+                              pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 320px; margin-left: 271px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: black; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                                stock
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="271" y="313.5" width="78" height="17"
+                                       xlink:href="data:image/png;base64,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"/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-28">
+                    <g>
+                        <path d="M 146 289 L 146 319.5 L 265.13 319.5" fill="none" stroke="#006633"
+                              stroke-miterlimit="10" pointer-events="stroke" style="stroke: rgb(0, 102, 51);"/>
+                        <path d="M 268.88 319.5 L 263.88 322 L 265.13 319.5 L 263.88 317 Z" fill="#006633"
+                              stroke="#006633" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(0, 102, 51); stroke: rgb(0, 102, 51);"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-32">
+                    <g>
+                        <path d="M 270 168.25 L 232 168.21 L 200.37 168.72" fill="none" stroke="#ff8000"
+                              stroke-miterlimit="10" pointer-events="stroke" style="stroke: rgb(255, 128, 0);"/>
+                        <path d="M 196.62 168.78 L 201.58 166.2 L 200.37 168.72 L 201.66 171.2 Z" fill="#ff8000"
+                              stroke="#ff8000" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(255, 128, 0); stroke: rgb(255, 128, 0);"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-33">
+                    <g>
+                        <path d="M 270 176 L 226 176 L 226 264 L 198.87 264" fill="none" stroke="#ff8000"
+                              stroke-miterlimit="10" pointer-events="stroke" style="stroke: rgb(255, 128, 0);"/>
+                        <path d="M 195.12 264 L 200.12 261.5 L 198.87 264 L 200.12 266.5 Z" fill="#ff8000"
+                              stroke="#ff8000" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(255, 128, 0); stroke: rgb(255, 128, 0);"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-31">
+                    <g>
+                        <rect x="270" y="160.5" width="80" height="31" rx="4.65" ry="4.65" fill="#ffffff"
+                              stroke="#000000" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 176px; margin-left: 271px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #000000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: black; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                                orders
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="271" y="169.5" width="78" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATgAAABECAYAAAAV6ClkAAAAAXNSR0IArs4c6QAADJdJREFUeF7tnXXMbTsRxdfD3SE4wTXB3V2Cu7u7ewjBJTgEdye4uxMcAsHd3YP7/pH20TTt3u2xe9/panL/uN/pbjtr2rVn2unsQ+RiBIyAEdhTBA7ZU7kslhEwAkZAJjhPAiNgBPYWARPc3qrWghkBI2CC8xwwAkZgbxEwwe2tai2YETACJjjPASNgBPYWARPc3qrWghkBI2CC8xwwAkZgbxEwwe2tag+oYPeT9JhkBC+RdLMDOiJ3PiQCJrgh1b51oU1wW4fYHbQgYIJrQcl1ehEwwfUi5vpbQcAEtxVYh2/UBDf8FDg4ADDBHRx62LdRmOD2TaOHUXlMcIdRxR3kwzbBHeQKGmV4JrhRNL1bOU1wu8XbvVUQMMF5amwDARPcNlB1m90ImOC6IfMDDQiY4BpAcpXtI2CC2z7GSz0cX9LVJd1G0tkkHT154AeSPiDpuZI+JekfS42F308i6ROSThn+/yFJV5b0J0kXlfRYSRcIv/1W0rslPVXSJyX9q9LHKSTdQNKNJZ1V0uFCvS9LemEY4x/C39YluMNLOo+kW0xjumIiB80z3s9JepGkNwSZWmA5xtTmWyc8Lx4qgy0Y/FTSWSbcHz9hdoUgFzh9VNIzpjrvrOB+bElXkXRzSeeSdNxkEL+U9EVJr5T0Rkm/bhmg62weARPc5jFtbfHkkh4eFkjLMyyau02L8TUzJBTbKRHctSQ9QNK9Kp39R9LlJL03+/1Ykh4p6c4Lg4TcbiTpbZLuu+JNBubjJSU9R9JpG0CB8B8s6WmS/rJQv0RwF5J0jYmcnpIQdt7M7SU9O/kjLyDwuMvMM3kbT59I8kGS4gugQTRX2QQCJrhNoNjfxqUkvVrSCfof/Z/lAtlgZdRKTnAfkfThsMhqz2C9XV7S75MKZ5b0eklnahznvyXdUNKpJT06eablqtZRA3Hco7GvtNpnAlH9aObZEsE9URL/ojWaP/7jYPF+N/xwvMnKfm0g4d5hfidY0V/tfdD1V0fABLc6dqs+iSWFFVZaVN+fFg/u5N8knUbSxaZFf8RCR7hN18/IKK2WExyWzhGkQ1PU/ySx1C4zWUwnDRYJlkYsp5L0HkmnL/T/dUkfC38/f3BZY7U/BxlwLWNZIjhkxB3ETc8LRI67DUHguub9xfrfnMZ02cmtBcNSyQkOi/WfCb6/C676Hye5Lzy5l2cMY8JSo25tjJA6bvqng2V95OAGg19eeNHg1qYvkVXnkZ9rQMAE1wDSBquccyKt90s6TtYmezW4juwHpYUFfV1Jz5osDVzFtPA3Fh+LNC85wcXfWYz3nCxHiCzutTEHsLhY4L8JFVnML58W7nWyht8XSChaNPFn9hFxt+9QwWqO4Oj/PmFfMH3826E98Mr3BWv9QcjXlARJ5SUnuPT3JwXrNnVz2XPkxfCzUPESkzWH/OmL6RHBFS9Z02DK3umls4Gwj/mqDc4pNzWDgAlud9MDFwzLjc3+lHDYV8N6wUqoFfbr2FBn4z19lk1xFnVeagT3wLAg5/qiLSwhrMR0MT8/EGptr6tGVLQ3R3DnDu7z0RIhOFi5dkK4JVzojwwljCsd500kvayD4HD5b9twgMMhDC+UWNBZtO5qeuMg4i3BzY113i4JK/6vu5t64/Zkgtud7i8o6YOSjpR0iQXwkAVyi9VPF4gA8oqFU0EsvJx0SgSX7yfVJMeVfWlwgWMd3C9czqXTQCw/Dgg4WUxLjeCYfxwQ3CmpvORqpu3y/MPCQUP8e2kvkd9KFtzfJ51gmX18YRpwsPCmzBq7aiCvpRnESwhSi2sNixAXGJfbZcsImOC2DHDSfG4BfC0srp93DIHDBQghFva72Kf7bNZGieBeF0ir5NKmj7P3x/7aiZM/9rhVhLqw15S64TWCw42j7smSvmoWWA2mvI3aaXCJ4Dic4OSY0JO5UnqWcBnc+KWC9c2L7SiT9U5/XwqntpyKu2wZARPclgEOzRMjRaxZ6mI+auFUszSyEvnkYQw8VyI4whToc6lgmWCtxNJrcWABsseEGxZLjeDyvjggwLrB2mwtpf5K2JZI6hUhrm/JZWed4PZyQhyLT0VbNXQA65ngdgP+2YOlcszQXc3KWBoNVgCW2JUWyKNEcK0uFTFe7NXFssqeEQcZT2gguLwvNvGv1hG8G7tgvLQ1N+YSwd2/cLhR0wGn1hwGpYVDG8JGCHTGSvO+2tIM3vHvJrjdAE4oBhZcxJvTyotIWiUmKieFeEshPTnMCQ63lABaovPnSslSYRP/1p0wsV8HMcZSsuBKltf3KocmS91zk4DDilhKruc6bibtcnL7jimQ+bwzgyFcBKuQA6FvNARkL8nl39dEwAS3JoCNjxP79OakbnpNqLGJQ6vl16BaCK62V5f3va6VE9vLT0ZLBDcXttGLSV6/hG+pv1arNrbPFgMk1xKgTYgJQdIvCNftWq/ZrSu7n08QMMHtZjpsk+BKizm34Exw5VPUXoJjtnBowIERV7xaC64scYucmuexjq1tuN4KCJjgVgBthUe2SXAld8wE9/+L9FFdm7DgUtUTCHx3SbcsBG7Xpsivpm2J64Vg7xWmkR/pRcAE14vYavW3SXD75KL2bPr3amLTBBf7Zw1xLYt7vJAdbmztbivPcGOEu8if7xXA9fsRMMH1Y7bKE5s8ZMjj6Uonj6tacMj24ikI9aaJkEv3SEt4cIDCbQQOEiilNkrBs6scaLTqY1sEl/dPsPMZAobEynHPNy8ttyBa5XK9GQRMcLuZHmTl4ASTbBSxEOrBhnVPaSWFdQguD7koWYhLYyZtUnpdqkaSz5N0q6SxVfpaGkv8fVcEl46H9UUgMXGBaeAzMXSkauoJ8m6V0/USBExwu5kOBzrQt/WQATTyEI/ekBbmFCeH6XWtGsHdLmy+Ry3gvpGQk2j/1hKvexGEy4ELtzoIySFeML21sQ7B8YJimwFSOl+IaYTEl26FRBnAgli5WHr00YqD6xUQMMHtblrkruW3wl7MDzuGkIeItF7V6llQXJviqlaa7qdnb6x0/apGcKVrXT33c4GudEeX62x3zXBdh+DWvXGRh8306KNjerhqjoAJbndzYhuX7d8VwhWWLtv3LKjSBXhCG7jzCinPldLld+rXCK6UYQUrjg17UrQvFfb4IDOuq8VCSAYpirhZkJZ1CK50Ra7nzmxOkFxFI136XILOJdn9ewMCJrgGkDZUpbSYafreIavsKumSiMVKA4jjUNfZg6MNvrkAQaQBrVyKJ3NJzI9WelnyO5H8+Sni3EFFKTVTyz1P5m6pv1qGlXUIrpRhpZWISymTWhMfbGjqjduMCW63uq8lvORqDy5V/kYn4SV3M/kmQB49TzJF0gyVIuTXJbhabjeSUJI7jRPSlJA5/ICoH1qBc47gSlYYzWB1ggmEmVuote9EzJHOOgTHeNgb5HsVaborvrFwx5Dnr6QHPmZDxpFzZBZmLY/fbmfjAL2Z4Hav5E2kLCc0hHZqqa/XJThQmUsj/otg4dE/iQSWYr+WQk2wcrBq8uy3jAOXk2DmLwRV8ZJIs7KkrinppJ5ZUem6BMdaIfMvCUrzArnxpS++pEU5UXDp0y9txWfmXky7n4173qMJ7sAomJNKQgfyNOQto+FjNZw+zuX13wTBMRYsM64YEc/VWljsTw7WZczSu0RwtA3JETZCJt/eAgkuZUZel+BWxSOVpeWDQb2yu/4MAia4Azc9uNPIF53y7x7URoR7yCImS8dS/rJNERxjmfsuRD5WxkhyTAiHr3j1EFzaF5/xO2Gjasg2TBjGVxbqb4Lg4hj59sTjplRL7Ku2lJ5PPra05zqNCJjgGoHaYjXuNLJZDtGlH36GJNhsh9DYh8JNq32UOR/eJgkuto01x6EGbmA6ztJHkluyicxBintMvBlf2eJDzXzAOh5cYCGCC0k5uflAivMlwqevTRFcHDdjJAUV8Xf5GNEdMXkELvd+tHuLU228pk1w4+ncEhuBYRAwwQ2jagtqBMZDwAQ3ns4tsREYBgET3DCqtqBGYDwETHDj6dwSG4FhEDDBDaNqC2oExkPABDeezi2xERgGARPcMKq2oEZgPARMcOPp3BIbgWEQMMENo2oLagTGQ8AEN57OLbERGAYBE9wwqragRmA8BExw4+ncEhuBYRAwwQ2jagtqBMZDwAQ3ns4tsREYBgET3DCqtqBGYDwETHDj6dwSG4FhEDDBDaNqC2oExkPABDeezi2xERgGARPcMKq2oEZgPARMcOPp3BIbgWEQMMENo2oLagTGQ8AEN57OLbERGAYBE9wwqragRmA8BP4LRjW3Y1U/BCkAAAAASUVORK5CYII="/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-9">
+                    <g>
+                        <path d="M 306 69 L 306 114.79 L 306.64 156.38" fill="none" stroke="#006633"
+                              stroke-miterlimit="10" pointer-events="stroke" style="stroke: rgb(0, 102, 51);"/>
+                        <path d="M 306.7 160.13 L 304.96 155.15 L 306.64 156.38 L 308.29 155.1 Z" fill="#006633"
+                              stroke="#006633" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(0, 102, 51); stroke: rgb(0, 102, 51);"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-29">
+                    <g>
+                        <path d="M 350 319.5 L 436 319.5 L 436 31.5 L 355.48 31.53" fill="none" stroke="#ff8000"
+                              stroke-miterlimit="10" pointer-events="stroke" style="stroke: rgb(255, 128, 0);"/>
+                        <path d="M 351.48 31.53 L 353.47 29.53 L 355.48 31.53 L 353.48 33.53 Z" fill="#ff8000"
+                              stroke="#ff8000" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(255, 128, 0); stroke: rgb(255, 128, 0);"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-36">
+                    <g>
+                        <path d="M 350 225.5 L 426 225.5 L 426 41.29 L 355.79 41.27" fill="none" stroke="#ff8000"
+                              stroke-miterlimit="10" pointer-events="stroke" style="stroke: rgb(255, 128, 0);"/>
+                        <path d="M 351.79 41.27 L 353.79 39.27 L 355.79 41.27 L 353.79 43.27 Z" fill="#ff8000"
+                              stroke="#ff8000" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(255, 128, 0); stroke: rgb(255, 128, 0);"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-34">
+                    <g>
+                        <ellipse cx="338" cy="37" rx="11.999999999999998" ry="11.999999999999998" fill="#ffffff"
+                                 stroke="#ff3333" stroke-width="2" pointer-events="all"/>
+                        <ellipse cx="338" cy="37" rx="8.399999999999999" ry="8.399999999999999" fill="#ff3333"
+                                 stroke="#ff3333" stroke-width="2" pointer-events="all"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-37">
+                    <g>
+                        <rect x="386" y="290" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 305px; margin-left: 401px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #FF8000; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: #FF8000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                                4
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="397.5" y="298.5" width="7" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABECAYAAACS0FUOAAAAAXNSR0IArs4c6QAAAhlJREFUWEftl79LVVEcwD/f0BIjG4vQzaWGaLEpmswIqiGoRahVBXFxeoH3XDIKakmxhiaFpqKhBqnQobEpnPoXGhSqKUy+dm/nyfWp73LP+z6H3jnb5XDu59zP98c5VzjkIYfMIwLNjUelHa5UHReAZeC0V7EijuFmWoKTRh09wCfgUgHQRmBCDWEWdjWP9gDVcRnlHcLJBn32QHX0eZUX94lVW4DPgMkGlXW2LVBTrqK8Bk4ckIl2QH3IKTb5CJz3sF8o3xCGzLNUFSFlHpjwKhV4DhwBxu2BKTdQXhVUrtHNCJvM+E3YxdCrXAXO7agURiXhvToWTIFeZaZuzMP+qUyYFEHtgQl3EBYhb2PZyFXKfb5nD6ZAnWWAP2QqBxtV1gNmBvQq3/z9olsFlfPimCrWnx0w5R7KS6DbA75ylGGpsW4O1AecZSsv8P6CytuS8KGxu7T8hTrHMTbIVF5vptIshpoyhfKkTKUJUF3eI7PrwpkylS0D/XXhLXCtoPKxOGrN7ifBMVTHNPAI6PKAL8AVcfw0B+65eSk/EG6K43MzWHCn0ZRxND9q2jOECUl4UX+5dADQcRd4GuRT6UU4Xlj7G/Yk2rQ4lnaUBoHqtWN9AJdtJrgOy1580HwE7mcm+HctuNOExq8zgCF2WophBJqXRVQalYbkQOU1sfArKytbEJWWGao8H5VWVla2ICotM1R5/v9Xug3Xd+pFI5NZywAAAABJRU5ErkJggg=="/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-39">
+                    <g>
+                        <rect x="337" y="87" width="30" height="30" fill="none" stroke="none" pointer-events="all"/>
+                    </g>
+                    <g>
+                        <g>
+                            <switch>
+                                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none"
+                                               width="100%" height="100%"
+                                               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 102px; margin-left: 352px;">
+                                        <div style="box-sizing: border-box; font-size: 0; text-align: center; color: #007FFF; ">
+                                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica,serif; color: #007FFF; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                                5
+                                            </div>
+                                        </div>
+                                    </div>
+                                </foreignObject>
+                                <image x="348.5" y="95.5" width="7" height="17"
+                                       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABECAYAAACS0FUOAAAAAXNSR0IArs4c6QAAA8lJREFUWEftll2IVGUYx3/PbG6aoq4iVqSihbVmwoI3EouSlZKSFiEJBn6hsaIXYamDM/s6IxvS3tQmLUXkx0VQiKkpRuUHot4Ugp8YRehF0YXC5ura5M7jnums+545Z+bsMB8Xcc7lzPO+v+f5v8+XUONPaswjAlZc8UjS/6ukW3UydZwBHi0jxG6yvEJaTtl3BCdNQmcT4zAwvDZAoy0oO8uAOUdLiNDoHpS3agM0+ghwFKX5AVBYgZFdZTqQO+5/Q6NPoLmEmeAC/ibLfNJytjrAhM4ixlFgpOvSb2Ropk3+rA7Q6HKULyw5v+cPFvCp/FsdYKt+0JdhG63L29km71YC5n/DNTqExzmM8pILyAJL2SZfVQcY18eo5xTKk9VIGH+ECW0ixg/AGE/C3OImDbyB0ILQiNLgOtSD8CtZ9nGPTtrkrzAlvGXRqkuAL4GYCzyNchxYD4wKuSwD7OI279AutwvZeoFGUyiJMC9D/r9MLwvZLr8H2VlAFVo5CCwscKETwS/AFTf6Z1CeAob57IVrwMsYcew93wDQ6GiUY0BTnk0XQpwbfE6H/OP5b70+zFhWobT5JBdO0s2CfHkHgFu1kYc42TclxlmXOvK8zna5WlTGhD5LXa6cJll2WZQNpMQzdWzg09QRR2hCGY/Qwz3mhcL6CUbnoOwHRltd6gIwByM3+3+r4NamgqEDZZ0V5V2E1zDi9Gb36ctMSc/xhDYT4wgwwooyjZFkdYBbdBz1nACmWcADGFlcHWDw8HaWqPkYueNAK/iGbgxGv0FZZEn9E3d5kR3SVQVgQPMQPPPU22kM4/uKuB5hCr10kZZzJeXUJh3F0Fzzn1n8Df17jCP2JxhpKQkYtEALAVka9Njg0X5QYKPLUHY/mDZQpA5b9UNgg3XxHZRXScmPg4Jt1OGMyLW32YPrNEmdi+SmhbOX9reF77jBIl/TDvIgqesQPrKic3ppnJTssM0Hkua/zn8AZZ6nAUM7l4nztfQWjNTomyif5XWYS2SYm78FeOswoc8T41tPA4YswiEyrPWtEJu1gaG8D6xGqbMc6nafw9kWPJ+/8JO6AqETqM+z7EVxpvh5wIm2EZjqs4MMynukHHlFw4GokGQlQkfgNC+eQT0om0jxcRCseKcxOqNvXdwLTLcSoRDO2V8vkmUlafm5mE8hvTQ3454D3gZeQJloRe2siNcht5Z0YrhQKKrgLB1UsZVvVPlpEeJTBCz/0UILv+KIsE4TActUICqLMgX0H48kjSQtWYEoaUqWLOxAJGmYQiX/X3NJ7wNoqTFUxlxMzAAAAABJRU5ErkJggg=="/>
+                            </switch>
+                        </g>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-44">
+                    <g>
+                        <path d="M 60 71 L 60 162 L 94 162" fill="none" stroke="#000000" stroke-miterlimit="10"
+                              pointer-events="stroke"/>
+                        <path d="M 63 74 L 57 74 M 63 77 L 57 77" fill="none" stroke="#000000" stroke-miterlimit="10"
+                              pointer-events="all"/>
+                        <path d="M 91 165 L 91 159 M 88 165 L 88 159" fill="none" stroke="#000000"
+                              stroke-miterlimit="10" pointer-events="all"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-45">
+                    <g>
+                        <path d="M 32 71 L 32 264 L 94 264" fill="none" stroke="#000000" stroke-miterlimit="10"
+                              pointer-events="stroke"/>
+                        <path d="M 35 74 L 29 74 M 35 77 L 29 77" fill="none" stroke="#000000" stroke-miterlimit="10"
+                              pointer-events="all"/>
+                        <path d="M 91 267 L 91 261 M 88 267 L 88 261" fill="none" stroke="#000000"
+                              stroke-miterlimit="10" pointer-events="all"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-42">
+                    <g>
+                        <path d="M 26 22 C 26 11.33 66 11.33 66 22 L 66 66 C 66 76.67 26 76.67 26 66 Z" fill="#e6e6e6"
+                              stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+                        <path d="M 26 22 C 26 30 66 30 66 22 M 26 26 C 26 34 66 34 66 26 M 26 30 C 26 38 66 38 66 30"
+                              fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+                    </g>
+                </g>
+                <g data-cell-id="ip0xppRjwPyU-cTa4sQt-48">
+                    <g>
+                        <g>
+                            <svg width="38" height="26.32"
+                                 viewBox="-18.45800018310547 6.579999923706055 191.1510009765625 132.49000549316406"
+                                 xmlns="http://www.w3.org/2000/svg" x="27" y="42" style="font-family: initial;">
+                                <path d="M-18.458 6.58h191.151v132.49H-18.458V6.58z" fill="none"/>
+                                <path d="M40.054 113.583h-5.175c-.183-8.735-.687-16.947-1.511-24.642h-.046l-7.879 24.642h-3.94l-7.832-24.642h-.045c-.581 7.388-.947 15.602-1.099 24.642H7.81c.304-10.993 1.068-21.299 2.289-30.919h6.414l7.465 22.719h.046l7.511-22.719h6.137c1.344 11.268 2.138 21.575 2.382 30.919M62.497 90.771c-2.107 11.434-4.887 19.742-8.337 24.928-2.688 3.992-5.633 5.99-8.84 5.99-.855 0-1.91-.258-3.16-.77v-2.757c.611.088 1.328.138 2.152.138 1.498 0 2.702-.412 3.62-1.238 1.098-1.006 1.647-2.137 1.647-3.388 0-.858-.428-2.612-1.282-5.268L42.618 90.77h5.084l4.076 13.19c.916 2.995 1.298 5.086 1.145 6.277 2.229-5.953 3.786-12.444 4.673-19.468h4.901v.002z"
+                                      fill="#5d87a1"/>
+                                <path d="M131.382 113.583h-14.7V82.664h4.945v27.113h9.755v3.806zM112.834 114.33l-5.684-2.805c.504-.414.986-.862 1.42-1.381 2.416-2.838 3.621-7.035 3.621-12.594 0-10.229-4.014-15.346-12.045-15.346-3.938 0-7.01 1.298-9.207 3.895-2.414 2.84-3.619 7.022-3.619 12.551 0 5.435 1.068 9.422 3.205 11.951 1.955 2.291 4.902 3.438 8.843 3.438 1.47 0 2.819-.18 4.048-.543l7.4 4.308 2.018-3.474zm-18.413-6.934c-1.252-2.014-1.878-5.248-1.878-9.707 0-7.785 2.365-11.682 7.1-11.682 2.475 0 4.289.932 5.449 2.792 1.25 2.017 1.879 5.222 1.879 9.619 0 7.849-2.367 11.774-7.099 11.774-2.476.001-4.29-.928-5.451-2.796M85.165 105.013c0 2.622-.962 4.773-2.884 6.458-1.924 1.678-4.504 2.519-7.737 2.519-3.024 0-5.956-.966-8.794-2.888l1.329-2.655c2.442 1.223 4.653 1.831 6.638 1.831 1.863 0 3.319-.413 4.375-1.232 1.055-.822 1.684-1.975 1.684-3.433 0-1.837-1.281-3.407-3.631-4.722-2.167-1.19-6.501-3.678-6.501-3.678-2.349-1.712-3.525-3.55-3.525-6.578 0-2.506.877-4.529 2.632-6.068 1.757-1.545 4.024-2.315 6.803-2.315 2.87 0 5.479.769 7.829 2.291l-1.192 2.656c-2.01-.854-3.994-1.281-5.951-1.281-1.585 0-2.809.381-3.66 1.146-.858.762-1.387 1.737-1.387 2.933 0 1.828 1.308 3.418 3.722 4.759 2.196 1.192 6.638 3.723 6.638 3.723 2.409 1.709 3.612 3.53 3.612 6.534"
+                                      fill="#f8981d"/>
+                                <path d="M137.59 72.308c-2.99-.076-5.305.225-7.248 1.047-.561.224-1.453.224-1.531.933.303.3.338.784.601 1.198.448.747 1.229 1.752 1.942 2.276.783.6 1.569 1.194 2.393 1.717 1.453.899 3.1 1.422 4.516 2.318.825.521 1.645 1.195 2.471 1.756.406.299.666.784 1.193.971v-.114c-.264-.336-.339-.822-.598-1.196l-1.122-1.082c-1.084-1.456-2.431-2.727-3.884-3.771-1.196-.824-3.812-1.944-4.297-3.322l-.076-.076c.822-.077 1.797-.375 2.578-.604 1.271-.335 2.43-.259 3.734-.594.6-.15 1.195-.338 1.797-.523v-.337c-.676-.673-1.158-1.567-1.869-2.203-1.902-1.643-3.998-3.25-6.164-4.595-1.16-.749-2.652-1.231-3.887-1.868-.445-.225-1.195-.336-1.457-.71-.67-.822-1.047-1.904-1.533-2.877-1.08-2.053-2.129-4.331-3.061-6.502-.674-1.456-1.084-2.91-1.906-4.257-3.85-6.35-8.031-10.196-14.457-13.971-1.381-.786-3.024-1.121-4.779-1.533l-2.803-.148c-.598-.262-1.197-.973-1.719-1.309-2.132-1.344-7.621-4.257-9.189-.411-1.01 2.431 1.494 4.821 2.354 6.054.635.856 1.458 1.83 1.902 2.802.263.635.337 1.309.6 1.98.598 1.644 1.157 3.473 1.943 5.007.41.782.857 1.604 1.381 2.312.3.414.822.597.936 1.272-.521.744-.562 1.867-.861 2.801-1.344 4.221-.819 9.45 1.086 12.552.596.934 2.018 2.99 3.92 2.202 1.684-.672 1.311-2.801 1.795-4.668.111-.451.038-.747.262-1.043v.073c.521 1.045 1.047 2.052 1.53 3.1 1.159 1.829 3.177 3.735 4.858 5.002.895.676 1.604 1.832 2.725 2.245V74.1h-.074c-.227-.335-.559-.485-.857-.745-.674-.673-1.42-1.495-1.943-2.241-1.566-2.093-2.952-4.41-4.182-6.801-.602-1.16-1.121-2.428-1.606-3.586-.226-.447-.226-1.121-.601-1.346-.562.821-1.381 1.532-1.791 2.538-.711 1.609-.785 3.588-1.049 5.646l-.147.072c-1.19-.299-1.604-1.53-2.056-2.575-1.119-2.654-1.307-6.914-.336-9.976.26-.783 1.385-3.249.936-3.995-.225-.715-.973-1.122-1.383-1.685-.482-.708-1.01-1.604-1.346-2.39-.896-2.091-1.347-4.408-2.312-6.498-.451-.974-1.234-1.982-1.868-2.879-.712-1.008-1.495-1.718-2.058-2.913-.186-.411-.447-1.083-.148-1.53.073-.3.225-.412.523-.487.484-.409 1.867.111 2.352.336 1.385.56 2.543 1.083 3.699 1.867.523.375 1.084 1.085 1.755 1.272h.786c1.193.26 2.538.072 3.661.41 1.979.636 3.772 1.569 5.38 2.576 4.893 3.103 8.928 7.512 11.652 12.778.447.858.637 1.644 1.045 2.539.787 1.832 1.76 3.7 2.541 5.493.785 1.755 1.533 3.547 2.654 5.005.559.784 2.805 1.195 3.812 1.606.745.335 1.905.633 2.577 1.044 1.271.783 2.537 1.682 3.732 2.543.595.448 2.465 1.382 2.576 2.13M99.484 39.844a5.82 5.82 0 0 0-1.529.188v.075h.072c.301.597.824 1.011 1.197 1.532.301.599.562 1.193.857 1.791l.072-.074c.527-.373.789-.971.789-1.868-.227-.264-.262-.522-.451-.784-.22-.374-.705-.56-1.007-.86"
+                                      fill="#5d87a1"/>
+                                <path d="M141.148 113.578h.774v-3.788h-1.161l-.947 2.585-1.029-2.585h-1.118v3.788h.731v-2.882h.041l1.078 2.882h.557l1.074-2.882v2.882zm-6.235 0h.819v-3.146h1.072v-.643h-3.008v.643h1.115l.002 3.146z"
+                                      fill="#f8981d"/>
+                            </svg>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

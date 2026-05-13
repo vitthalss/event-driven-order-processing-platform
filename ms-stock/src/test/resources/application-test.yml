@@ -1,0 +1,48 @@
+spring:
+  application.name: ms-stock
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create-drop  # Create and drop schema for each test
+    show-sql: false
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:testdb;MODE=MySQL
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+spring.kafka:
+  bootstrap-servers: 127.0.0.1:29092,127.0.0.1:39092
+
+  # Consumer configuration
+  consumer:
+    group-id: ms-stock-test
+    key-deserializer: org.apache.kafka.common.serialization.LongDeserializer
+    value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+    max-poll-records: 100
+    session-timeout-ms: 30000
+    auto-offset-reset: earliest
+    enable-auto-commit: false
+    properties:
+      spring.json.trusted.packages: com.tribune.demo.ecommerce.domain
+
+  # Producer configuration
+  producer:
+    key-serializer: org.apache.kafka.common.serialization.LongSerializer
+    value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    acks: all
+    retries: 3
+    compression-type: snappy
+    properties:
+      linger.ms: 100
+      batch.size: 16384
+
+logging:
+  level:
+    root: WARN
+    com.tribune.demo.ecommerce: DEBUG
+
+server:
+  port: 0
+

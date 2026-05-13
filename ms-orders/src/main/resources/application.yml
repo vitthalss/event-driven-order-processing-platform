@@ -1,0 +1,79 @@
+spring:
+  application.name: ms-orders
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate  # Changed from create-drop to validate for safety
+  datasource:
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:33066/commerce}
+    username: ${DB_USER:ecommerce_user}
+    password: ${DB_PASSWORD:ecommerce_pass}
+  h2:
+    console:
+      enabled: false  # Disabled for security
+
+spring.kafka:
+  bootstrap-servers: 127.0.0.1:29092,127.0.0.1:39092
+
+  # Producer configuration
+  producer:
+    key-serializer: org.apache.kafka.common.serialization.LongSerializer
+    value-serializer: com.tribune.demo.ecommerce.utils.OrderJsonSerializer
+    acks: all  # Wait for all replicas
+    retries: 3  # Retry up to 3 times on failure
+    compression-type: snappy  # Compress messages
+
+  # Consumer configuration (for streams)
+  consumer:
+    group-id: ms-orders
+    max-poll-records: 100
+    session-timeout-ms: 30000
+    auto-offset-reset: earliest
+    enable-auto-commit: false  # Manual commit for reliability
+
+  # Streams configuration
+  streams:
+    properties:
+      default.key.serde: org.apache.kafka.common.serialization.Serdes$LongSerde
+      default.value.serde: com.tribune.demo.ecommerce.utils.OrderJsonSerde
+      isolation.level: read_committed  # Only read committed data
+      num.stream.threads: 4  # Scale with CPU cores
+    state-dir: /tmp/kafka-streams/
+    application-id: ms-orders
+
+  # Producer reliability
+  properties:
+    linger.ms: 100  # Batch messages
+    batch.size: 16384  # Batch size in bytes
+
+# Management (Actuator) configuration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus  # Expose monitoring endpoints
+  endpoint:
+    health:
+      show-details: always  # Show detailed health info
+    metrics:
+      enabled: true
+  metrics:
+    export:
+      simple:
+        enabled: true
+
+spring.output.ansi.enabled: ALWAYS
+
+logging:
+  level:
+    root: INFO
+    com.tribune.demo.ecommerce: DEBUG  # Debug our application
+    org.springframework.kafka: INFO
+  pattern:
+    console: "%clr(%d{HH:mm:ss.SSS}){blue} %clr(---){faint} %clr([%15.15t]){yellow} %clr(%logger{36}){cyan} %clr(:){red} %clr(%m){faint}%n"
+
+server:
+  port: 9091
+  servlet:
+    context-path: /api
+

@@ -1,0 +1,203 @@
+version: '3.8'
+
+# Custom network for all services
+networks:
+  ecommerce-network:
+    driver: bridge
+    name: ecommerce_default
+
+# Named volumes for data persistence
+volumes:
+  kafka1-data:
+    driver: local
+  kafka2-data:
+    driver: local
+  mysql-data:
+    driver: local
+
+services:
+  # ============================================================
+  # Kafka Brokers with KRaft Mode (No Zookeeper needed!)
+  # KRaft = Kafka Raft - Built-in consensus, modern approach
+  # ============================================================
+
+  kafka-1:
+    container_name: ecommerce-kafka-1
+    image: confluentinc/cp-kafka:7.5.1
+    networks:
+      - ecommerce-network
+    hostname: kafka-1
+    ports:
+      - "29092:29092"  # External port (localhost)
+      - "9092:9092"    # Internal port (kafka-to-kafka)
+    environment:
+      # KRaft Mode Configuration
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 2
+      KAFKA_OFFSETS_TOPIC_NUM_PARTITIONS: 3
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 2
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 2
+      KAFKA_DEFAULT_REPLICATION_FACTOR: 2
+
+      # Listeners Configuration
+      KAFKA_LISTENERS: PLAINTEXT://kafka-1:9092,PLAINTEXT_HOST://kafka-1:29092,CONTROLLER://kafka-1:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-1:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT,CONTROLLER:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka-1:9093,2@kafka-2:9093
+
+      # KRaft Cluster ID (same for all brokers)
+      CLUSTER_ID: MkQkzxFyTdWNvUn9Qvkzrg
+
+      # Performance & Optimization
+      KAFKA_NUM_NETWORK_THREADS: 8
+      KAFKA_NUM_IO_THREADS: 8
+      KAFKA_LOG_RETENTION_HOURS: 168
+      KAFKA_LOG_CLEANUP_POLICY: delete
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
+      KAFKA_COMPRESSION_TYPE: snappy
+
+    volumes:
+      - kafka1-data:/var/lib/kafka/data
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1024M
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  kafka-2:
+    container_name: ecommerce-kafka-2
+    image: confluentinc/cp-kafka:7.5.1
+    networks:
+      - ecommerce-network
+    hostname: kafka-2
+    ports:
+      - "39092:39092"
+      - "9093:9092"
+    environment:
+      # KRaft Mode Configuration
+      KAFKA_NODE_ID: 2
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 2
+      KAFKA_OFFSETS_TOPIC_NUM_PARTITIONS: 3
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 2
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 2
+      KAFKA_DEFAULT_REPLICATION_FACTOR: 2
+
+      # Listeners Configuration
+      KAFKA_LISTENERS: PLAINTEXT://kafka-2:9092,PLAINTEXT_HOST://kafka-2:39092,CONTROLLER://kafka-2:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-2:9092,PLAINTEXT_HOST://localhost:39092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT,CONTROLLER:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka-1:9093,2@kafka-2:9093
+
+      # KRaft Cluster ID (same for all brokers)
+      CLUSTER_ID: MkQkzxFyTdWNvUn9Qvkzrg
+
+      # Performance & Optimization
+      KAFKA_NUM_NETWORK_THREADS: 8
+      KAFKA_NUM_IO_THREADS: 8
+      KAFKA_LOG_RETENTION_HOURS: 168
+      KAFKA_LOG_CLEANUP_POLICY: delete
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
+      KAFKA_COMPRESSION_TYPE: snappy
+
+    volumes:
+      - kafka2-data:/var/lib/kafka/data
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1024M
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # ============================================================
+  # Kafka Topics Initialization Service
+  # ============================================================
+
+  kafka-topics-init:
+    container_name: ecommerce-kafka-topics-init
+    image: confluentinc/cp-kafka:7.5.1
+    networks:
+      - ecommerce-network
+    depends_on:
+      - kafka-1
+      - kafka-2
+    environment:
+      KAFKA_BROKERS: kafka-1:9092,kafka-2:9092
+    command: |
+      bash -c '
+        sleep 15
+        kafka-topics --bootstrap-server kafka-1:9092 --create --if-not-exists --topic orders --partitions 3 --replication-factor 2 --config cleanup.policy=compact
+        kafka-topics --bootstrap-server kafka-1:9092 --create --if-not-exists --topic payments --partitions 3 --replication-factor 2 --config cleanup.policy=compact
+        kafka-topics --bootstrap-server kafka-1:9092 --create --if-not-exists --topic stock --partitions 3 --replication-factor 2 --config cleanup.policy=compact
+        echo "Topics created successfully"
+      '
+    restart: on-failure
+
+  # ============================================================
+  # MySQL Database Service
+  # ============================================================
+
+  mysql:
+    container_name: ecommerce-mysql
+    image: mysql:8.0.35
+    networks:
+      - ecommerce-network
+    hostname: mysql
+    ports:
+      - "33066:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_password}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-commerce}
+      MYSQL_USER: ${MYSQL_USER:-ecommerce_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-ecommerce_pass}
+      MYSQL_INITDB_SKIP_TZINFO: 'yes'
+      MYSQL_TCP_PORT: 3306
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD:-root_password}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'
+          memory: 1024M
+        reservations:
+          cpus: '0.75'
+          memory: 512M
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --default-authentication-plugin=mysql_native_password
+      - --sql-mode=STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
