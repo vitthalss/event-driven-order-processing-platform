@@ -1,6 +1,6 @@
 <div align="center">
 
-# Kafka Streams Microservices Demo
+# Event-Driven Order Processing Platform
 
 <img src="docs/spring.svg" width="200" alt="spring"/>
 <img src="docs/kafka.svg" width="200" alt="kafka"/>
