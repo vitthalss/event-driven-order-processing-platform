@@ -1,6 +1,6 @@
 <div align="center">
 
-# Event-Driven Order Processing Platform
+# Kafka Event Streaming Platform
 
 <img src="docs/spring.svg" width="200" alt="spring"/>
 <img src="docs/kafka.svg" width="200" alt="kafka"/>
